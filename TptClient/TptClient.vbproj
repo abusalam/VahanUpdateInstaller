@@ -26,7 +26,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.97.0</ApplicationVersion>
+    <ApplicationVersion>1.0.99.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -64,7 +64,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>6FDF501E6F90A85DF8C028DDB4A512799F20EE43</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>E19AA16EE976BBB6B98A3578A30CF6334899F6F6</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>TptClient_TemporaryKey.pfx</ManifestKeyFile>
@@ -150,7 +150,7 @@
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="TptDCOMSvr_WB">
-      <Guid>{9DCF9D09-3B81-47E0-80ED-4E6B0FB5520F}</Guid>
+      <Guid>{AD9F86DE-D982-449E-A5CE-2896FC86E501}</Guid>
       <VersionMajor>1</VersionMajor>
       <VersionMinor>0</VersionMinor>
       <Lcid>0</Lcid>

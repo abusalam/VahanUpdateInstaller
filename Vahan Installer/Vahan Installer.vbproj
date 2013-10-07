@@ -31,7 +31,7 @@
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.php</WebPage>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.0.97.0</ApplicationVersion>
+    <ApplicationVersion>1.0.99.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -70,7 +70,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>777E41057A9E74C64B5778A236B7C6C6083D108E</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>AC7E54D7DA7AC72D0D629E1FA3025633BCD8D070</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>Vahan Installer_TemporaryKey.pfx</ManifestKeyFile>
