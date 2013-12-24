@@ -42,4 +42,29 @@
         End If
         Me.Close()
     End Sub
+    Private Sub BtnSPVS_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnSPVS.Click
+        Dim osVer As Version = Environment.OSVersion.Version
+        If osVer.Major = 5 Then
+            Process.Start("SPVS.exe")
+        Else
+            Dim pi = New ProcessStartInfo("SPVS.exe")
+            pi.UseShellExecute = True
+            pi.Verb = "runas"
+            Process.Start(pi)
+        End If
+        Me.Close()
+    End Sub
+
+    Private Sub BtnDLO_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnDLO.Click
+        Dim osVer As Version = Environment.OSVersion.Version
+        If osVer.Major = 5 Then
+            Process.Start("Sarathi.exe")
+        Else
+            Dim pi = New ProcessStartInfo("Sarathi.exe")
+            pi.UseShellExecute = True
+            pi.Verb = "runas"
+            Process.Start(pi)
+        End If
+        Me.Close()
+    End Sub
 End Class
