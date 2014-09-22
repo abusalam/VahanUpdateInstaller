@@ -26,7 +26,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <InstallUrl>http://www.paschimmedinipur.gov.in/vahan/</InstallUrl>
-    <UpdateUrl>https://www.paschimmedinipur.gov.in/vahan/</UpdateUrl>
+    <UpdateUrl>http://www.paschimmedinipur.gov.in/vahan/</UpdateUrl>
     <ProductName>Vahan Installer</ProductName>
     <PublisherName>National Informatics Centre</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
