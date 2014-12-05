@@ -31,8 +31,8 @@
     <PublisherName>National Informatics Centre</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.php</WebPage>
-    <ApplicationRevision>10</ApplicationRevision>
-    <ApplicationVersion>1.0.99.10</ApplicationVersion>
+    <ApplicationRevision>11</ApplicationRevision>
+    <ApplicationVersion>1.0.99.11</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -146,9 +146,6 @@
     <Content Include="SPVS.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="WbTptSrvr.dll">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <None Include="My Project\app.manifest" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
@@ -218,6 +215,17 @@
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="TptDCOMSvr_WB">
+      <Guid>{AD9F86DE-D982-449E-A5CE-2896FC86E501}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>True</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
