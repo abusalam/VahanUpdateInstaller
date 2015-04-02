@@ -27,6 +27,12 @@ Partial Class StartVahan
         Me.BtnRVS = New System.Windows.Forms.Button()
         Me.BtnTempReg = New System.Windows.Forms.Button()
         Me.BtnVahan = New System.Windows.Forms.Button()
+        Me.LblUpdate = New System.Windows.Forms.Label()
+        Me.LblVahan = New System.Windows.Forms.Label()
+        Me.LblTempReg = New System.Windows.Forms.Label()
+        Me.LblRVS = New System.Windows.Forms.Label()
+        Me.LblSPVS = New System.Windows.Forms.Label()
+        Me.LblSarathi = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'BtnDLO
@@ -89,12 +95,75 @@ Partial Class StartVahan
         Me.BtnVahan.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.BtnVahan.UseVisualStyleBackColor = True
         '
+        'LblUpdate
+        '
+        Me.LblUpdate.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.LblUpdate.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.LblUpdate.Location = New System.Drawing.Point(9, 96)
+        Me.LblUpdate.Name = "LblUpdate"
+        Me.LblUpdate.Size = New System.Drawing.Size(387, 26)
+        Me.LblUpdate.TabIndex = 5
+        Me.LblUpdate.Text = "Update:"
+        Me.LblUpdate.TextAlign = System.Drawing.ContentAlignment.MiddleLeft
+        '
+        'LblVahan
+        '
+        Me.LblVahan.Location = New System.Drawing.Point(12, 73)
+        Me.LblVahan.Name = "LblVahan"
+        Me.LblVahan.Size = New System.Drawing.Size(72, 23)
+        Me.LblVahan.TabIndex = 6
+        Me.LblVahan.Text = "Version"
+        Me.LblVahan.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'LblTempReg
+        '
+        Me.LblTempReg.Location = New System.Drawing.Point(90, 73)
+        Me.LblTempReg.Name = "LblTempReg"
+        Me.LblTempReg.Size = New System.Drawing.Size(72, 23)
+        Me.LblTempReg.TabIndex = 7
+        Me.LblTempReg.Text = "Version"
+        Me.LblTempReg.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'LblRVS
+        '
+        Me.LblRVS.Location = New System.Drawing.Point(168, 73)
+        Me.LblRVS.Name = "LblRVS"
+        Me.LblRVS.Size = New System.Drawing.Size(72, 23)
+        Me.LblRVS.TabIndex = 8
+        Me.LblRVS.Text = "Version"
+        Me.LblRVS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'LblSPVS
+        '
+        Me.LblSPVS.Location = New System.Drawing.Point(246, 73)
+        Me.LblSPVS.Name = "LblSPVS"
+        Me.LblSPVS.Size = New System.Drawing.Size(72, 23)
+        Me.LblSPVS.TabIndex = 9
+        Me.LblSPVS.Text = "Version"
+        Me.LblSPVS.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
+        'LblSarathi
+        '
+        Me.LblSarathi.Location = New System.Drawing.Point(324, 73)
+        Me.LblSarathi.Name = "LblSarathi"
+        Me.LblSarathi.Size = New System.Drawing.Size(72, 23)
+        Me.LblSarathi.TabIndex = 10
+        Me.LblSarathi.Text = "Version"
+        Me.LblSarathi.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+        '
         'StartVahan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(409, 83)
+        Me.ClientSize = New System.Drawing.Size(405, 126)
         Me.ControlBox = False
+        Me.Controls.Add(Me.LblSarathi)
+        Me.Controls.Add(Me.LblSPVS)
+        Me.Controls.Add(Me.LblRVS)
+        Me.Controls.Add(Me.LblTempReg)
+        Me.Controls.Add(Me.LblVahan)
+        Me.Controls.Add(Me.LblUpdate)
         Me.Controls.Add(Me.BtnDLO)
         Me.Controls.Add(Me.BtnSPVS)
         Me.Controls.Add(Me.BtnRVS)
@@ -115,5 +184,11 @@ Partial Class StartVahan
     Friend WithEvents BtnRVS As System.Windows.Forms.Button
     Friend WithEvents BtnSPVS As System.Windows.Forms.Button
     Friend WithEvents BtnDLO As System.Windows.Forms.Button
+    Friend WithEvents LblUpdate As System.Windows.Forms.Label
+    Friend WithEvents LblVahan As System.Windows.Forms.Label
+    Friend WithEvents LblTempReg As System.Windows.Forms.Label
+    Friend WithEvents LblRVS As System.Windows.Forms.Label
+    Friend WithEvents LblSPVS As System.Windows.Forms.Label
+    Friend WithEvents LblSarathi As System.Windows.Forms.Label
 
 End Class

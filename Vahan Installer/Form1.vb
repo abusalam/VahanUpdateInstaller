@@ -1,7 +1,12 @@
 ﻿Public Class StartVahan
 
-    Private Sub Form1_Load(sender As Object, e As System.EventArgs) Handles Me.Load
-
+    Private Sub Form1_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
+        LblVahan.Text = "1.1.19"
+        LblTempReg.Text = "1.0.28"
+        LblRVS.Text = "1.0.476"
+        LblSPVS.Text = "2.0.52"
+        LblSarathi.Text = "1.0.24"
+        LblUpdate.Text = "Last Update: Vahan 1.1.19 and Permit 1.0.42"
     End Sub
 
     Private Sub BtnVahan_Click(sender As System.Object, e As System.EventArgs) Handles BtnVahan.Click
