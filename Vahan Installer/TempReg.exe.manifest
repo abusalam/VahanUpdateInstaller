@@ -13,29 +13,29 @@
     <comClass clsid="{0de0e0b4-ae1c-4245-bae2-0f1888f0af2e}" threadingModel="Apartment" tlbid="{83826c0f-ddb2-4b4c-b703-4ced2af246f5}" progid="EvaluateExp.CEval" />
     <comClass clsid="{0bf8a38e-f0d9-4a16-a1a8-e4ce874efd35}" threadingModel="Apartment" tlbid="{83826c0f-ddb2-4b4c-b703-4ced2af246f5}" progid="EvaluateExp.CStack" />
   </file>
-  <file name="WbTptSrvr.dll" asmv2:size="974848" xmlns="urn:schemas-microsoft-com:asm.v1">
+  <file name="WbTptSrvr.dll" asmv2:size="1015808" xmlns="urn:schemas-microsoft-com:asm.v1">
     <hash xmlns="urn:schemas-microsoft-com:asm.v2">
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>iI7oOO+J59+UWyfPMqi5uRKJ8Ho=</dsig:DigestValue>
+      <dsig:DigestValue>+QBDDmOwgQ1aUbfLQwYrsvnRSJ8=</dsig:DigestValue>
     </hash>
-    <typelib tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" version="1.0" helpdir="" resourceid="0" flags="HASDISKIMAGE" />
-    <comClass clsid="{51c346a1-c953-4f15-b016-76a66acc6c1b}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsDBConnect" />
-    <comClass clsid="{61ecb8de-b4fa-441c-975c-be00ff141383}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsPermit" />
-    <comClass clsid="{4ebc4460-8cdc-4b8c-9d7e-64cef5f33a12}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsCheckUser" />
-    <comClass clsid="{0f357365-9bd4-4123-8612-9b205ca8ebd2}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsCheck" />
-    <comClass clsid="{55b0e51b-6b77-40d1-8092-a6514c535ab2}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsRegistration" />
-    <comClass clsid="{f392d7a6-db5c-4281-8561-9fbabf6d2fee}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsHypth" />
-    <comClass clsid="{5e050554-aa2d-48be-9c4b-b555dfbaec38}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsFitness" />
-    <comClass clsid="{00190ef6-e2fb-4bd2-b758-807a7af4af12}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsMaster" />
-    <comClass clsid="{3b8f3e56-fada-41f4-89ee-c4e40e5ba26d}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsChallan" />
-    <comClass clsid="{f19f6198-e614-4044-931d-2537e8877dca}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.ClsTaxSlab" />
-    <comClass clsid="{0cd1487b-3ebc-4c61-aa9e-c507912b6a7a}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsPenalty" />
-    <comClass clsid="{b47542c3-70fa-46e5-bfdf-cda53e3f364b}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsInstallment" />
-    <comClass clsid="{6d7d393a-dbfb-4081-9cc6-9c0889f08070}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsTaxStatement" />
-    <comClass clsid="{364b9144-407c-40ef-8777-b6e4d6534f4a}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsPermitFee" />
-    <comClass clsid="{e2e9c634-17ae-489e-a091-17a02a80caef}" threadingModel="Apartment" tlbid="{ad9f86de-d982-449e-a5ce-2896fc86e501}" progid="TptDCOMSvr_WB.clsAcctStmt" />
+    <typelib tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" version="1.0" helpdir="" resourceid="0" flags="HASDISKIMAGE" />
+    <comClass clsid="{412a998a-73cc-4f8a-8351-692c2ce639d3}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsDBConnect" />
+    <comClass clsid="{663c2d68-541a-4d1b-83a9-1583e9c70f75}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsPermit" />
+    <comClass clsid="{f8bbc0c5-3d6a-45d5-8087-24555ee80761}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsCheckUser" />
+    <comClass clsid="{562f0fdc-8095-4884-ba18-9171165a0284}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsCheck" />
+    <comClass clsid="{4da6d742-066e-4c0d-9196-3eb136810bfe}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsRegistration" />
+    <comClass clsid="{374d8465-79c7-495f-b897-8afbf9cedb79}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsHypth" />
+    <comClass clsid="{e36b8111-fd8e-4fdb-98c2-cd1eef714aca}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsFitness" />
+    <comClass clsid="{16754473-971e-4751-b485-01703c18b2ce}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsMaster" />
+    <comClass clsid="{ab84a346-6670-4355-a350-b33092a8ae53}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsChallan" />
+    <comClass clsid="{807ae96b-93bd-4faa-b808-3f8e8fd495e6}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.ClsTaxSlab" />
+    <comClass clsid="{4f004dd1-f07f-4747-986e-2bc93cb2fc70}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsPenalty" />
+    <comClass clsid="{47bb46cb-2c9f-4369-94ac-583d96c926c2}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsInstallment" />
+    <comClass clsid="{cfd809cc-b695-45e1-a845-a2c8b06ab7a6}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsTaxStatement" />
+    <comClass clsid="{850159fa-7166-4757-a50e-e44b0f2aafc6}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsPermitFee" />
+    <comClass clsid="{bb79b329-3549-41c0-9537-b38fb19a47cb}" threadingModel="Apartment" tlbid="{8e331fee-286d-4fbd-bcc9-97f111d6342a}" progid="TptDCOMSvr_WB.clsAcctStmt" />
   </file>
 </asmv1:assembly>
