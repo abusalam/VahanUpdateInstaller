@@ -23,7 +23,7 @@ Partial Class StartVahan
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.BtnDLO = New System.Windows.Forms.Button()
-        Me.BtnSPVS = New System.Windows.Forms.Button()
+        Me.BtnHSRP = New System.Windows.Forms.Button()
         Me.BtnRVS = New System.Windows.Forms.Button()
         Me.BtnTempReg = New System.Windows.Forms.Button()
         Me.BtnVahan = New System.Windows.Forms.Button()
@@ -47,17 +47,17 @@ Partial Class StartVahan
         Me.BtnDLO.TextAlign = System.Drawing.ContentAlignment.BottomCenter
         Me.BtnDLO.UseVisualStyleBackColor = True
         '
-        'BtnSPVS
+        'BtnHSRP
         '
-        Me.BtnSPVS.Image = Global.Vahan.My.Resources.Resources.SPVS
-        Me.BtnSPVS.ImageAlign = System.Drawing.ContentAlignment.TopCenter
-        Me.BtnSPVS.Location = New System.Drawing.Point(246, 12)
-        Me.BtnSPVS.Name = "BtnSPVS"
-        Me.BtnSPVS.Size = New System.Drawing.Size(72, 58)
-        Me.BtnSPVS.TabIndex = 3
-        Me.BtnSPVS.Text = "SPVS"
-        Me.BtnSPVS.TextAlign = System.Drawing.ContentAlignment.BottomCenter
-        Me.BtnSPVS.UseVisualStyleBackColor = True
+        Me.BtnHSRP.Image = Global.Vahan.My.Resources.Resources.SPVS
+        Me.BtnHSRP.ImageAlign = System.Drawing.ContentAlignment.TopCenter
+        Me.BtnHSRP.Location = New System.Drawing.Point(246, 12)
+        Me.BtnHSRP.Name = "BtnHSRP"
+        Me.BtnHSRP.Size = New System.Drawing.Size(72, 58)
+        Me.BtnHSRP.TabIndex = 3
+        Me.BtnHSRP.Text = "HSRP"
+        Me.BtnHSRP.TextAlign = System.Drawing.ContentAlignment.BottomCenter
+        Me.BtnHSRP.UseVisualStyleBackColor = True
         '
         'BtnRVS
         '
@@ -156,7 +156,7 @@ Partial Class StartVahan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(405, 126)
+        Me.ClientSize = New System.Drawing.Size(401, 122)
         Me.ControlBox = False
         Me.Controls.Add(Me.LblSarathi)
         Me.Controls.Add(Me.LblSPVS)
@@ -165,7 +165,7 @@ Partial Class StartVahan
         Me.Controls.Add(Me.LblVahan)
         Me.Controls.Add(Me.LblUpdate)
         Me.Controls.Add(Me.BtnDLO)
-        Me.Controls.Add(Me.BtnSPVS)
+        Me.Controls.Add(Me.BtnHSRP)
         Me.Controls.Add(Me.BtnRVS)
         Me.Controls.Add(Me.BtnTempReg)
         Me.Controls.Add(Me.BtnVahan)
@@ -182,7 +182,7 @@ Partial Class StartVahan
     Friend WithEvents BtnVahan As System.Windows.Forms.Button
     Friend WithEvents BtnTempReg As System.Windows.Forms.Button
     Friend WithEvents BtnRVS As System.Windows.Forms.Button
-    Friend WithEvents BtnSPVS As System.Windows.Forms.Button
+    Friend WithEvents BtnHSRP As System.Windows.Forms.Button
     Friend WithEvents BtnDLO As System.Windows.Forms.Button
     Friend WithEvents LblUpdate As System.Windows.Forms.Label
     Friend WithEvents LblVahan As System.Windows.Forms.Label
