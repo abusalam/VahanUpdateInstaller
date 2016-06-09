@@ -19,20 +19,20 @@
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>true</UpdateEnabled>
-    <UpdateMode>Background</UpdateMode>
+    <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
     <UpdateIntervalUnits>Days</UpdateIntervalUnits>
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <InstallUrl>https://apps.paschimmedinipur.gov.in/vahan/</InstallUrl>
-    <UpdateUrl>https://apps.paschimmedinipur.gov.in/vahan/</UpdateUrl>
+    <InstallUrl>https://www.paschimmedinipur.gov.in/vahan/</InstallUrl>
+    <UpdateUrl>https://www.paschimmedinipur.gov.in/vahan/</UpdateUrl>
     <ProductName>Vahan Installer</ProductName>
     <PublisherName>National Informatics Centre</PublisherName>
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>index.php</WebPage>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>1.1.27.0</ApplicationVersion>
+    <ApplicationVersion>1.1.24.0</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -71,7 +71,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>AD1C970833EE62325E8E4DADC291C0806E11DC7C</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>94760A31A1B26CDFA5A11FFA9DB4A9761C603B20</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>Vahan Installer_TemporaryKey.pfx</ManifestKeyFile>
@@ -89,11 +89,10 @@
     <ApplicationIcon>Resources\VAHAN.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
-    <SignAssembly>false</SignAssembly>
+    <SignAssembly>true</SignAssembly>
   </PropertyGroup>
   <PropertyGroup>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>Vahan Installer_TemporaryKey.pfx</AssemblyOriginatorKeyFile>
   </PropertyGroup>
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
@@ -140,9 +139,6 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="RVS_VerControll.exe">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
     <Content Include="WbTptSrvr.dll">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -170,7 +166,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="RVS_VerControll.exe.manifest">
+    <Content Include="RVS.exe.manifest">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       <SubType>Designer</SubType>
     </Content>
@@ -204,6 +200,9 @@
     <Content Include="Resources\RVS.ico" />
     <Content Include="Resources\TempReg.ico" />
     <Content Include="Resources\VAHAN.ico" />
+    <Content Include="RVS.exe">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="TempReg.exe">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>

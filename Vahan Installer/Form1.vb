@@ -1,21 +1,15 @@
 ﻿Public Class StartVahan
 
-    Private Sub StartVahan_KeyDown(ByVal sender As Object, ByVal e As System.Windows.Forms.KeyEventArgs) Handles BtnVahan.KeyDown
-        If e.KeyCode = Windows.Forms.Keys.Escape Then
-            Me.Close()
-        End If
-    End Sub
-
     Private Sub Form1_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        LblVahan.Text = "1.1.0.27/45"
-        LblTempReg.Text = "1.0.0.66"
-        LblRVS.Text = "2.1.0.12"
-        LblSPVS.Text = "1.2.0.31"
+        LblVahan.Text = "1.1.0.24/42"
+        LblTempReg.Text = "1.0.0.28"
+        LblRVS.Text = "1.0.0.476"
+        LblSPVS.Text = "2.0.0.52"
         LblSarathi.Text = "1.0.0.25"
-        LblUpdate.Text = "Last Update: Updated to Vahan-27 TempReg-66 RVS_VerControl-12 HSRP-31"
+        LblUpdate.Text = "Last Update: Update for e-Rickshaw and e-Cart."
     End Sub
 
-    Private Sub BtnVahan_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnVahan.Click
+    Private Sub BtnVahan_Click(sender As System.Object, e As System.EventArgs) Handles BtnVahan.Click
         Dim osVer As Version = Environment.OSVersion.Version
         If osVer.Major = 5 Then
             Process.Start("TptClient.exe")
@@ -28,7 +22,7 @@
         Me.Close()
     End Sub
 
-    Private Sub BtnTempReg_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnTempReg.Click
+    Private Sub BtnTempReg_Click(sender As System.Object, e As System.EventArgs) Handles BtnTempReg.Click
         Dim osVer As Version = Environment.OSVersion.Version
         If osVer.Major = 5 Then
             Process.Start("TempReg.exe")
@@ -41,24 +35,24 @@
         Me.Close()
     End Sub
 
-    Private Sub BtnRVS_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnRVS.Click
+    Private Sub BtnRVS_Click(sender As System.Object, e As System.EventArgs) Handles BtnRVS.Click
         Dim osVer As Version = Environment.OSVersion.Version
         If osVer.Major = 5 Then
-            Process.Start("RVS_VerControll.exe")
+            Process.Start("RVS.exe")
         Else
-            Dim pi = New ProcessStartInfo("RVS_VerControll.exe")
+            Dim pi = New ProcessStartInfo("RVS.exe")
             pi.UseShellExecute = True
             pi.Verb = "runas"
             Process.Start(pi)
         End If
         Me.Close()
     End Sub
-    Private Sub BtnHSRP_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnHSRP.Click
+    Private Sub BtnSPVS_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles BtnSPVS.Click
         Dim osVer As Version = Environment.OSVersion.Version
         If osVer.Major = 5 Then
-            Process.Start("VahanScmHsrp.exe")
+            Process.Start("SPVS.exe")
         Else
-            Dim pi = New ProcessStartInfo("VahanScmHsrp.exe")
+            Dim pi = New ProcessStartInfo("SPVS.exe")
             pi.UseShellExecute = True
             pi.Verb = "runas"
             Process.Start(pi)
